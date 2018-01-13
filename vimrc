@@ -50,7 +50,7 @@ syntax on
 
 " Set colorscheme
 colorscheme dracula
-
+colorscheme Tomorrow-Night
 " highlights searched items
  set hlsearch
 
