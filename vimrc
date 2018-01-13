@@ -1,4 +1,8 @@
 "--Beginning of .vimrc file -- 
+"add pathogen plugin"
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
+
 
 " This wraps lines at 80 characters 
  set textwidth=80
@@ -98,4 +102,9 @@ set encoding=utf8
 
 " Use Unix as the standard file type
 "set ffs=unix,dos,mac
+
+if has("autocmd")
+  filetype plugin indent on
+endif
+
 " -- End of .vimrc file --
