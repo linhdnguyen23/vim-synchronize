@@ -1,10 +1,2 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =8
-let g:netrw_dirhist_1='/home/linh-nguyen/Documents/Editor-Themes/tomorrow-theme'
-let g:netrw_dirhist_2='/home/linh-nguyen/.vim'
-let g:netrw_dirhist_3='/home/linh-nguyen/Documents/cse11'
-let g:netrw_dirhist_4='/home/linh-nguyen/Documents/cse11/pa7'
-let g:netrw_dirhist_5='/home/linh-nguyen/Documents/cse11/Mining-Analysis'
-let g:netrw_dirhist_6='/home/linh-nguyen/Documents/cse11/pa10'
-let g:netrw_dirhist_7='/home/linh-nguyen/Documents/cse11/pa9-Program'
-let g:netrw_dirhist_8='/home/linh-nguyen/eclipse-cpp-workspace/assign1/src'
+let g:netrw_dirhist_cnt =0

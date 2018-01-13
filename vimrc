@@ -13,9 +13,6 @@ call pathogen#helptags()
 "display an incomplete command in lower right corner"
  set showcmd
  
-" creates a column showing 80 char length
- set colorcolumn=80
-
 " allows you to see where you are in file
  set ruler
 
@@ -51,18 +48,16 @@ call pathogen#helptags()
 " Enable syntax highlighting
 syntax on 
 
+" Set colorscheme
+colorscheme dracula
+
 " highlights searched items
  set hlsearch
 
 " search for partial matches 
  set incsearch
 
-try
-    colorscheme delek 
-catch
-endtry
-
-set background=dark
+"set background=dark
 
 "everything past column 80 is dark red
 "let &colorcolumn=join(range(81,999),",")
@@ -102,9 +97,5 @@ set encoding=utf8
 
 " Use Unix as the standard file type
 "set ffs=unix,dos,mac
-
-if has("autocmd")
-  filetype plugin indent on
-endif
 
 " -- End of .vimrc file --
